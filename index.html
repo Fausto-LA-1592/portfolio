@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Fausto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="matrix"></canvas>
+  <div id="welcome">
+    <h1>Bienvenid@ al portfolio de Fausto</h1>
+    <p>Explorá mis habilidades en lógica, scripting y sistemas</p>
+    <button id="toggleEffect">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+      <defs>
+      <mask id="cutout">
+        <rect x="0" y="0" width="24" height="24" fill="white" />
+        <rect x="11" y="2" width="2" height="4" fill="black" />
+      </mask>
+      </defs>
+        <circle cx="12" cy="12" r="8" fill="none" stroke-width="2" mask="url(#cutout)" />
+        <line x1="12" y1="2" x2="12" y2="10" stroke-width="2" stroke-linecap="round" />
+      </svg>
+    </button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
